@@ -1,0 +1,9 @@
+{
+    "appName": "Ethernet speedtest",
+    "serverMode": true,
+    "interval": 1800,
+    "loggingLevel": "debug",
+    "slackEndpoint": "",
+    "downloadThreshold": 100.0,
+    "uploadThreshold": 100.0
+}

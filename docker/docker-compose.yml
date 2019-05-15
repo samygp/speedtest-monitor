@@ -1,0 +1,19 @@
+version: "3.3"
+networks:
+  host-net:
+    external:
+      name: "host"
+secrets:
+  speedtest-config:
+    file: ./config/configuration.json
+  speedtest-conf:
+    file: ./configuration.json
+
+services:
+  speedtest:
+    image: speedtest-monitor
+    secrets:
+      - source: speedtest-conf
+        target:  /run/config/configuration.json
+    ports:
+      - "12321:8080"
