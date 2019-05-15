@@ -7,7 +7,7 @@ import (
 	"os"
 	"runtime"
 
-	log "github.com/speedtest-monitor/pkg/Sirupsen/logrus"
+	log "github.com/Sirupsen/logrus"
 )
 
 // Configuration represents the config variables to be loaded from a
