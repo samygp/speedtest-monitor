@@ -7,7 +7,7 @@ import (
 	"os"
 	"runtime"
 
-	log "github.com/Sirupsen/logrus"
+	log "github.com/sirupsen/logrus"
 )
 
 // Configuration represents the config variables to be loaded from a

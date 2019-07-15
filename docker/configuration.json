@@ -3,7 +3,7 @@
     "serverMode": true,
     "interval": 1800,
     "loggingLevel": "debug",
-    "slackEndpoint": "",
+    "slackEndpoint": "https://hooks.slack.com/services/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",
     "downloadThreshold": 100.0,
     "uploadThreshold": 100.0
 }

@@ -9,7 +9,7 @@ import (
 	"sync"
 	"time"
 
-	log "github.com/speedtest-monitor/pkg/Sirupsen/logrus"
+	log "github.com/sirupsen/logrus"
 )
 
 var dlSizes = [...]int{350, 500, 750, 1000, 1500, 2000, 2500, 3000, 3500, 4000}

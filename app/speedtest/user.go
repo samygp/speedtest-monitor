@@ -6,7 +6,7 @@ import (
 	"io/ioutil"
 	"net/http"
 
-	log "github.com/speedtest-monitor/pkg/Sirupsen/logrus"
+	log "github.com/sirupsen/logrus"
 )
 
 // User information

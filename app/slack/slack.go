@@ -8,7 +8,7 @@ import (
 	"net/http"
 
 	"github.com/speedtest-monitor/app/configuration"
-	log "github.com/speedtest-monitor/pkg/Sirupsen/logrus"
+	log "github.com/sirupsen/logrus"
 )
 
 // SlackClient contains basic info about the app to send messages to a Slack Webhook
