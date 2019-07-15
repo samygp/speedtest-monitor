@@ -3,7 +3,7 @@ package speedtest
 import (
 	"time"
 
-	log "github.com/speedtest-monitor/pkg/Sirupsen/logrus"
+	log "github.com/sirupsen/logrus"
 )
 
 // Server information

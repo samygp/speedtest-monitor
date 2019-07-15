@@ -11,7 +11,7 @@ import (
 	"strconv"
 	"time"
 
-	log "github.com/speedtest-monitor/pkg/Sirupsen/logrus"
+	log "github.com/sirupsen/logrus"
 )
 
 // Len : length of servers. For sorting servers.

@@ -5,7 +5,7 @@ import (
 	"net/http"
 
 	spt "github.com/speedtest-monitor/app/speedtest"
-	log "github.com/speedtest-monitor/pkg/Sirupsen/logrus"
+	log "github.com/sirupsen/logrus"
 )
 
 // Handler is the main struct to reference when calling

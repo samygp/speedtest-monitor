@@ -13,7 +13,7 @@ import (
 	"github.com/speedtest-monitor/app/server/router"
 	"github.com/speedtest-monitor/app/slack"
 	"github.com/speedtest-monitor/app/speedtest"
-	log "github.com/speedtest-monitor/pkg/Sirupsen/logrus"
+	log "github.com/sirupsen/logrus"
 
 	"gopkg.in/alecthomas/kingpin.v2"
 )
